@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+Table {
+    border-spacing: 0px;
+    width: 70%;
+}
+
+th, td {
+    border: 0.5px solid #0000ff4a ;
+    padding: 5px;
+}
+
+th {
+    background-color: #121212;
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #030303b9;
+}
+
+img {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+label {
+    display: block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+input, textarea, select {
+    width: 50%;
+    padding: 8px   ;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color:#0d0d0e;
+    color: white;
+}
